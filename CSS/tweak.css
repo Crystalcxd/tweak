@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #00227D;
+    color: #747DB1;
+    font-family: "Helvetica Neue", "微软雅黑";
+}
+
+h1 {
+    text-align:center;
+    color: black;
+}
+.navShell {
+    width: 100%;
+    height: 64px;
+    color: black;
+    background-color: white;
+}
+.navbar {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    top: 20px;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Helvetica Neue", "微软雅黑";
+}
+
+.login-email-div {
+    width: 100%;
+    height: 44px;
+    margin-top: 20px;
+}
+
+.inputField {
+    width: 100%;
+    height: 38px;
+    /*margin: 50pt;*/
+    /*margin-top: 10px;*/
+}
+
+.loginButton {
+    background-color: #32D8B7;
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "SFUIDisplay-Medium", "微软雅黑";
+    color: rgba(255,255,255,0.90);
+    text-align: center;
+    letter-spacing: 0;
+    border-radius: 50px;
+    border: 0px;
+}
