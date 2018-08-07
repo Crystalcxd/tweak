@@ -10,6 +10,23 @@ h1 {
     text-align:center;
     color: black;
 }
+
+.image-center {
+    position: absolute;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);    /* 50%为自身尺寸的一半 */
+    -webkit-transform: translate(-50%, 0);    /* 50%为自身尺寸的一半 */
+    -moz-transform: translate(-50%, 0);    /* 50%为自身尺寸的一半 */
+}
+.image-logo {
+    position: absolute;
+    width: 150px;
+    height: 45px;
+
+    top: 28.2%;
+}
 .navShell {
     width: 100%;
     height: 64px;
@@ -41,9 +58,34 @@ h1 {
     /*margin-top: 10px;*/
 }
 
-.loginButton {
+.button-div-start {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 40px;
+}
+
+.loginButton-start {
+    float: left;
+    width: 42.6%;
+    height: 50px;
+    font-size: 18px;
+    font-family: "SFUIDisplay-Medium", "微软雅黑";
+    color: rgba(255,255,255,0.90);
+    text-align: center;
+    letter-spacing: 0;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255,255,255,0);
+    border-color: rgba(255,255,255,0.90);
+    margin-left: 20px;
+}
+
+.signupButton-start {
+    float: right;
+    width: 42.6%;
     background-color: #32D8B7;
-    width: 160px;
     height: 50px;
     font-size: 18px;
     font-family: "SFUIDisplay-Medium", "微软雅黑";
@@ -52,4 +94,5 @@ h1 {
     letter-spacing: 0;
     border-radius: 50px;
     border: 0px;
+    margin-right: 20px;
 }
